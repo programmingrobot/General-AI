@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+*.log
+*.safetensors.part
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+build/

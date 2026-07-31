@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Console</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <main class="console-shell">
+      <header class="console-header">
+        <div>
+          <h1>AI Console</h1>
+          <p id="workerStatus">Ready</p>
+        </div>
+        <span class="status-light" aria-hidden="true"></span>
+      </header>
+
+      <section id="messages" class="messages" aria-live="polite"></section>
+
+      <form id="chatForm" class="composer">
+        <label for="messageInput">Message</label>
+        <textarea id="messageInput" name="message" rows="3" autocomplete="off" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </main>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>

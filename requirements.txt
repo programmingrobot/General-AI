@@ -1,0 +1,9 @@
+torch
+transformers==4.46.3
+diffusers==0.31.0
+accelerate
+safetensors
+pillow
+sentencepiece
+protobuf
+tqdm
